@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUARTO SET</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="/img/logo1.jpeg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="/img/menu1.png">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto text-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="#/inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#/productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#/mayorista">Mayorista</a>
+                </li>
+              </ul>
+            </div>
+            <div><button id="boton-carrito" ><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button></div>
+        </nav>
+        </div>
+
+    </header>
+    
+<!-- INICIO starts-->
+    <section class="container" >
+        <div class="wrapper">
+            <div clas="row">
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <h1>CUARTO SET</h1>
+                        <p>Somos un emprendimiento dedicado a la venta de accesorios explusivos de Padel.
+                          Productos nacionales e importados. <br> Con Cuarto Set <strong>¡mantenés tu mejor nivel!</strong>
+                        </p>
+                        <a href="#/productos" class="btn-1">Ver productos</a>
+                        <img src="/img/player.png" class="feature-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- INICIO ends -->
+
+<!-- SERVICIOS starts-->
+
+<section class="ss text-center">
+    <div class="row">
+        <div class="col-md-4 text-center">
+                <div class="icon"><i class="fas fa-shipping-fast"></i></div>
+                <h3>Rapidez</h3>  
+        </div>  
+        <div class="col-md-4 text-center">
+                <div class="icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Calidad</h3>        
+        </div>
+        <div class="col-md-4 text-center">
+                <div class="icon"><i class="fas fa-tags"></i></div>
+                <h3>Precios accesibles</h3>
+        </div>
+    </div>
+
+</section>
+
+<!-- SERVICIOS end-->
+
+<!-- PRODUCTOS starts -->
+
+<section id="/productos">
+        <div><h2>Productos</h2></div>
+        <div class="text-center"><select class="btn text-secundary border border-secundary" id="categoria" name="select"></select></div>
+
+        <div class="row wrap" id="contenedor-productos"></div>
+        <div class="feature-box text-center"><a href="#/productos" class="btn-1">Arriba</a></div>
+</section>
+
+
+ <!-- PRODUCTOS ends -->
+
+ <!-- MARCAS starts -->
+
+<section class="section">
+    <div class="brands-center container">
+      <div class="brand">
+        <img src="/img/adidas-logo.png" width="75px" alt="" />
+      </div>
+      <div class="brand">
+        <img src="/img/bc-logo.png" width="150px" alt="" />
+      </div>
+      <div class="brand">
+        <img src="/img/nox-logo.png" width="150px" alt="" />
+      </div>
+      <div class="brand">
+        <img src="/img/bp-logo.png" width="170px" alt="" />
+      </div>
+      <div class="brand">
+        <img src="/img/odea-logo.png" width="140px"alt="" />
+      </div>
+      <div class="brand">
+        <img src="/img/siux-logo.png" width="150px"alt="" />
+      </div>
+    </div>
+  </section>
+
+<!-- MARCAS ends-->
+
+<!-- CARRITO starts -->
+
+<div class="modal-contenedor">
+    <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+        <div id="carrito-contenedor"></div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+    </div>
+</div>
+
+<!-- CARRITO ends -->
+
+<!-- MAYORISTA starts -->
+
+<section id="/mayorista" class="container contacto">
+    <div class="col-md-6"><img src="/img/player2.png" class="d-none d-sm-block d-md-block feature-img2"></div>
+    <form class="feature-box">
+        <h4>¿Queres ser mayorista?</h4><br>
+        <div class="input">
+            <input type="text" id="nombre" required>
+            <label for="nombre"><i class="fas fa-user"></i> Nombre</label>
+        </div>
+        <div class="input">
+            <input type="text" id="cel" required>
+            <label for="cel"><i class="fas fa-mobile"></i> Celular</label>
+        </div>
+        <div class="input">
+            <input type="email" id="email" required>
+            <label for="email"><i class="fas fa-envelope"></i> E-mail</label>
+        </div>
+        <div class="input">
+            <textarea id="mensaje" rows="8" required></textarea>
+            <label for="mensaje"><i class="fas fa-comment"></i> Mensaje</label>
+        </div>
+        <a href="#" class="btn-1">Enviar</a>
+    </form>
+</section>
+
+<!-- MAYORISTA ends -->
+
+<!-- PIE starts -->
+
+ <footer class="text-white section">
+     <h3 class="text-center pie">Podes encontrarnos en nuestras redes sociales</h3>
+    <div class="brands-center1 container">
+      <div class="brand1">
+        <div class="social"><a href="https://www.instagram.com/cuartoset.bahia/?hl=es"><i class="fab fa-instagram"></i></a></div>
+      </div>
+      <div class="brand1">
+        <div class="social"><a href="https://www.facebook.com/alejandrafabiana.moreno"><i class="fab fa-facebook-f"></i></a></div>
+      </div>
+      <div class="brand1">
+        <div class="social"><a href="#"><i class="fab fa-youtube"></i></a></div>
+      </div>
+      <div class="brand1">
+        <div class="social"><a href="#"><i class="fab fa-twitter"></i></a></div>
+      </div>
+      <div class="brand1">
+        <div class="social"><a href="#"><i class="far fa-envelope"></i></a></div>
+      </div>
+      <div class="brand1">
+        <div class="social"><a href="#"><i class="fab fa-whatsapp"></i></a></div>
+      </div>
+    </div>
+    <p class="text-center">copyright. todos los derechos reservados. 2021. created by: tardivo micaela</p>
+</footer>
+
+<!-- PIE ends -->
+
+<!-- scrips starts -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script src="./page/stock.js"></script>
+    <script src="./page/modal.js"></script>
+    <script src="./page/app.js"></script>
+
+<!-- scrips ends -->
+
+</body>
+</html>

@@ -1,0 +1,667 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 40px 2px rgba(54, 58, 75, 0.18);
+}
+
+/*nav*/
+
+.navbar-toggler {
+    outline: none !important;
+    padding: 0 !important;
+}
+
+.navbar-toggler img {
+    width: 30px;
+}
+
+.navbar-brand img {
+    width: 65px;
+}
+
+.nav-link {
+    color: rgb(6, 84, 136) !important;
+    font-weight: 600;
+    margin-right: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    background-color: rgba(159, 248, 76, 0.76);
+}
+
+.nav-link:focus {
+    outline: none;
+    
+}
+
+/*carrito*/
+
+#boton-carrito {
+    border: none;
+    color: rgb(6, 84, 136);
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 20px;
+    transition: all .3s;
+}
+
+#boton-carrito:hover {
+    cursor: pointer;
+    background-color: rgba(159, 248, 76, 0.76);
+    
+}
+
+#boton-carrito:focus {
+    outline: none;
+}
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+}
+
+.modal-carrito {
+    position: relative;
+    background-color: white;
+    min-width: 600px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+}
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+}
+
+.modal-carrito h3 {
+    color: rgb(6, 84, 136);
+    padding-bottom: 5px;
+}
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: rgb(6, 84, 136);
+    border: none;
+    background-color: white;
+}
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+.modal-carrito .precioProducto {
+    padding-top: 10px;
+}
+
+.card .card-image .card-title{
+    color :rgb(6, 84, 136);
+    position:unset
+}
+
+.productoEnCarrito {
+    border-left: 5px solid rgb(149, 243, 62);
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid rgb(6, 84, 136);
+}
+
+.boton-eliminar {
+    background-color: white;
+    color: rgba(207, 48, 48, 0.925);
+    border: none;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+
+/*inicio*/
+
+.wrapper {
+    margin: 50px auto;
+    height: 488px;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.feature-box {
+    padding: 30px;
+}
+
+.feature-box h1 {
+    margin-top: 20%;
+    color: rgb(6, 84, 136);
+}
+
+.feature-box p {
+    margin: 50px auto;
+    margin-top: 40px;
+    color: slategrey;
+}
+
+.feature-box a {
+    text-decoration: none !important;
+    background-color: rgb(6, 84, 136);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    border: 2px solid rgb(6, 84, 136) !important;
+    color: rgb(255, 255, 255);
+}
+
+.feature-box a:hover {
+    cursor: pointer;
+    color: rgb(159, 248, 0.76);
+    background-color: rgb(6, 84, 136);
+}
+
+.feature-img {
+    width: 90%;
+    margin-left: 600px;
+    margin-top: -330px;
+}
+
+/* servicios */
+
+.icon {
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    margin:20px auto;
+    padding:20px;
+    height:70px;
+    width:70px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:50%
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.col-md-4 {
+    border-radius: 50px;
+}
+    
+.col-md-4:hover {
+    box-shadow: 0px 4px 1px -1px rgba(167, 173, 177, 0.616);
+    cursor: pointer;
+}
+
+.ss {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(6, 84, 136);   
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* productos */
+
+h2 {
+    text-align: center;
+    margin: 35px;
+    color: rgb(6, 84, 136);
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* marcas 
+
+.icon2 {
+   margin: 30px auto;
+   padding: 25px;
+}
+
+.icon3 {
+    margin-bottom: 20px;
+}*/
+
+.section {
+    padding-right: 50px;
+    background-color: rgb(6, 84, 136);
+}
+
+.brands-center {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: baseline;
+}
+  
+.brand {
+    height: 6rem;
+    width: 6rem;
+    margin: 0 auto;
+}
+  
+.brand img {
+    object-fit: contain;
+} 
+
+/* mayorista */ 
+
+.feature-img2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 75px;
+}
+
+h4 {
+    color: rgb(6, 84, 136);
+    font-size: 20px;
+}
+
+.p {
+    width: 84%;
+    font-size: 16px;
+    font-weight: 550;
+    padding-top: 30px;
+    line-height: 15px;
+}
+
+.contacto {
+    width: 75%;
+    height: 77vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgb(6, 84, 136);
+    border-radius: 5px;
+    color: rgb(6, 84, 136);
+    background: transparent;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: rgb(6, 84, 136);
+    cursor: text;
+    transition: 0.2s;
+}
+
+.boton {
+    color: rgb(6, 84, 136);
+    outline: none;
+    background: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top:-35px;  
+    font-size: 14px;
+}   
+
+/* pie */
+
+.pie {
+    padding-top: 30px;
+}
+
+.social {
+    display: flex;  
+    padding-top: 10px;
+}
+
+.social a {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin: 20px 50px 20px 50px;
+    padding: 20px;
+    font-size:18px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%
+}
+
+.brands-center1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: baseline;
+}
+
+.brand1 {
+    height: 9rem;
+    width: 6rem;
+    margin: 0 auto;
+}
+  
+.brand1 a{
+    object-fit: contain;
+} 
+
+/* media */
+
+@media (min-width:360px) and (max-width:372px) {
+
+    .feature-img {
+        width: 28vh;
+        margin-left: 120px;
+        margin-top: -75px;
+    }
+
+}
+
+@media (min-width:372px) and (max-width:385px) {
+
+    .feature-img {
+        width: 29vh;
+        margin-left: 125px;
+        margin-top: -65px;
+    }
+
+}
+
+@media (min-width:385px) and (max-width:450px) {
+
+    .feature-img {
+        width: 30vh;
+        margin-left: 150px;
+        margin-top: -62px;
+    }
+
+}
+
+@media (min-width:450px) and (max-width:577px) {
+
+    .feature-img {
+        width: 30vh;
+        margin-left: 220px;
+        margin-top: -62px;
+    }
+
+}
+
+@media (min-width:360px) and (max-width:577px) {
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .brand .brand1 {
+        height: 4rem;
+        width: 4rem;
+        margin: 0 auto;
+    }
+
+    .brands-center {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: baseline;
+        padding-top: 50px;
+    }
+
+    .brands-center1 {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
+    }
+
+    /* **************************************** */
+
+    .contacto {
+        width: 100%;        
+    }
+
+    form {
+       width: 1000vh;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .btn-1 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:577px) and (max-width:620px) {
+
+    .feature-img {
+        width: 32vh;
+        margin-left: 280px;
+        margin-top: -80px;
+    }
+    
+    h3 {
+        font-size: 15px;
+    }
+    
+    .brand .brand1{
+        height: 5rem;
+        width: 5rem;
+        margin: 0 auto;
+    }
+
+    .brands-center {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
+        padding-top: 50px;
+    }
+
+    .brands-center1 {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
+    }
+
+    .contacto {
+        width: 100%;        
+    }
+
+    form {
+       width: 1000vh;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .btn-1 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:620px) and (max-width:767px) {
+
+    .feature-img {
+        width: 36vh;
+        margin-left: 300px;
+        margin-top: -120px;
+    }
+
+    .brand .brand1{
+        height: 5rem;
+        width: 5rem;
+        margin: 0 auto;
+    }
+
+    .brands-center {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
+        padding-top: 50px;
+    }
+
+    .brands-center1 {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
+    }
+
+    .feature-img2 {
+        width: 170%;
+        margin-left: -100px;
+        margin-top: 0px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .btn-1 {
+        font-size: 15px;
+    }
+       
+}
+
+@media (min-width:767px) and (max-width:990px) {
+
+    .feature-img {
+        width: 50vh;
+        margin-left: 250px;
+        margin-top: -280px;
+    }
+
+    .pie {
+        height: 10vh;
+    }
+    
+    .brands-center {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
+        padding-top: 50px;
+    }
+
+    .brands-center1 {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
+    }
+
+    .feature-img2 {
+        width: 150%;
+        margin-left: -100px;
+        margin-top: 0px;
+    }
+      
+}
+
+@media (min-width:990px) and (max-width:1149px) {
+
+    .feature-img {
+        width: 50vh;
+        margin-left: 380px;
+        margin-top: -255px;
+    }
+
+    .pie {
+        height: 10vh;
+    }
+
+    .feature-img2 {
+        width: 120%;
+        margin-left: -80px;
+        margin-top: 0px;
+    }
+
+    .brand1{
+        height: 8rem;
+        width: 8rem;
+        margin: 0 auto;
+    }
+}

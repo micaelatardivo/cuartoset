@@ -1,0 +1,201 @@
+[
+    {
+        "id":1,
+        "nombre": "Cubre Grip Perforados x 100", 
+        "desc": "Accesorio", 
+        "precio": 16000, 
+        "peso": " ", 
+        "cantidad":1, 
+        "categoria": "Odear",
+        "img": "/img/odear4.jpg"
+    },
+    {
+        "id":2,
+        "nombre": "Tubo 2 Pelotas", 
+        "desc": "Accesorio", 
+        "precio": 1500, 
+        "peso": "56-59,4 gr", 
+        "cantidad":1, 
+        "categoria": "Odear",
+        "img": "/img/odear1.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Tubo 3 Pelotas", 
+        "desc": "Accesorio", 
+        "precio": 1900, 
+        "peso": "56-59,4 gr", 
+        "cantidad":1,
+        "categoria": "Odear",
+        "img": "/img/odear2.jpg"
+    },
+    {
+        "id": 4, 
+        "nombre": "Cubre Grip Lisos x 60", 
+        "desc": "Accesorio", 
+        "precio": 14000, 
+        "peso": " ", 
+        "cantidad":1, 
+        "categoria": "Odear",
+        "img": "/img/odear3.jpeg"
+    },
+    {
+        "id": 5, 
+        "nombre": "Adipower Light 3.0", 
+        "desc": "Paleta", 
+        "precio": 60000, 
+        "peso": "345-360 gr", 
+        "cantidad":1, 
+        "categoria": "Adidas",
+        "img": "/img/adidas1.jpg"
+    },
+    {
+        "id": 6, 
+        "nombre": "Drive 3.0", 
+        "desc": "Paleta", 
+        "precio": 35000, 
+        "peso": "360-375 gr", 
+        "cantidad":1, 
+        "categoria": "Adidas",
+        "img": "/img/adidas2.jpg"
+    },
+    {
+        "id": 7, 
+        "nombre": "Drive Evo Woman 1.8", 
+        "desc": "Paleta", 
+        "precio": 25000, 
+        "peso": "370-380 gr", 
+        "cantidad":1, 
+        "categoria": "Adidas",
+        "img": "/img/adidas3.jpg"
+    },
+    {
+        "id": 8, 
+        "nombre": "ML 10 Hard Paddle", 
+        "desc": "Paleta", 
+        "precio": 30000, 
+        "peso": "365-375 gr", 
+        "cantidad":1, 
+        "categoria": "Nox",
+        "img": "/img/nox1.jpg"
+    },
+    {
+        "id": 9, 
+        "nombre": "Nexo World 2021", 
+        "desc": "Paleta", 
+        "precio": 72000, 
+        "peso": "360-375 gr", 
+        "cantidad":1,
+        "categoria": "Nox",
+        "img": "/img/nox2.jpg"
+    },
+    {
+        "id": 10, 
+        "nombre": "NOX ACE 5.2 Importada", 
+        "desc": "Paleta", 
+        "precio": 45000, 
+        "peso": "350-365 gr", 
+        "cantidad":1, 
+        "categoria": "Nox",
+        "img": "/img/nox4.png"
+    },     
+    {
+        "id": 11, 
+        "nombre": "Siux Trilogy Attack", 
+        "desc": "Paleta", 
+        "precio": 42000, 
+        "peso": "365-370 gr", 
+        "cantidad":1, 
+        "categoria": "Siux",
+        "img": "/img/siux1.jpg"
+    },
+    {
+        "id": 12, 
+        "nombre": "Siux Tsunami Verde", 
+        "desc": "Paleta", 
+        "precio": 30000, 
+        "peso": "365-370 gr", 
+        "cantidad":1, 
+        "categoria": "Siux",
+        "img": "/img/siux2.jpg"
+    },
+    {
+        "id": 13, 
+        "nombre": "Siux Panther", 
+        "desc": "Paleta", 
+        "precio": 40000, 
+        "peso": "365-370 gr", 
+        "cantidad":1, 
+        "categoria": "Siux",
+        "img": "/img/siux3.jpg"
+    }, 
+    {
+        "id": 14, 
+        "nombre": "Bullpadel K2 Power", 
+        "desc": "Paleta", 
+        "precio": 37000, 
+        "peso": "360-370 gr", 
+        "cantidad":1, 
+        "categoria": "BullPadel",
+        "img": "/img/bp1.jpg"
+    },
+    {
+        "id": 15, 
+        "nombre": "Bullpadel Flow Woman", 
+        "desc": "Paleta", 
+        "precio": 30000, 
+        "peso": "360-370 gr", 
+        "cantidad":1, 
+        "categoria": "BullPadel",
+        "img": "/img/bp2.jpg"
+    },
+    {
+        "id": 16, 
+        "nombre": "Bullpadel K2 Power", 
+        "desc": "Paleta", 
+        "precio": 32000, 
+        "peso": "365-380 gr", 
+        "cantidad":1, 
+        "categoria": "BullPadel",
+        "img": "/img/bp3.jpg"
+    },
+    {
+        "id": 17, 
+        "nombre": "Black Crown Wolf", 
+        "desc": "Paleta", 
+        "precio": 35000, 
+        "peso": "350-370 gr", 
+        "cantidad":1, 
+        "categoria": "Black Crown",
+        "img": "/img/bc1.jpg"
+    },
+    {
+        "id": 18, 
+        "nombre": "Black Crown Piton 8.0", 
+        "desc": "Paleta", 
+        "precio": 29000, 
+        "peso": "350-370 gr", 
+        "cantidad":1, 
+        "categoria": "Black Crown",
+        "img": "/img/bc2.jpg"
+    },
+    {
+        "id": 19, 
+        "nombre": "Black Crown Piton 6.0", 
+        "desc": "Paleta", 
+        "precio": 25000, 
+        "peso": "355-370 gr", 
+        "cantidad":1, 
+        "categoria": "Black Crown",
+        "img": "/img/bc3.jpg"
+    },
+    {
+        "id": 20, 
+        "nombre": "Black Crown Piton Air", 
+        "desc": "Paleta", 
+        "precio": 40000, 
+        "peso": "350-370 gr", 
+        "cantidad":1, 
+        "categoria": "Black Crown",
+        "img": "/img/bc4.jpg"}
+]
